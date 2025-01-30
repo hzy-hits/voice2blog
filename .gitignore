@@ -42,3 +42,33 @@ output.md
 .env.local
 *.wav
 *.md
+
+# Environment Variables
+.env
+.env.local
+*.wav
+*.md
+
+# Environment Variables
+.env
+.env.local
+*.wav
+*.md
+
+# Environment Variables
+.env
+.env.local
+*.wav
+*.md
+
+# Environment Variables
+.env
+.env.local
+*.wav
+*.md
+
+# Environment Variables
+.env
+.env.local
+*.wav
+*.md

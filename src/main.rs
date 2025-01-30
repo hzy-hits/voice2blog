@@ -89,6 +89,7 @@ async fn process_recording(
     // Transcribe audio
     println!("Starting audio transcription...");
     let transcript = api_client.transcribe_audio("recording.wav").await?;
+    println!("Transcript: {}", transcript);
     println!("Audio transcription completed");
 
     // Generate Markdown
