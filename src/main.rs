@@ -93,9 +93,10 @@ async fn process_recording(
 
     // Generate Markdown
     println!("Generating Markdown document...");
-    let _markdown_content = api_client.generate_markdown(&transcript).await?;
+    let markdown_content = api_client.generate_markdown(&transcript).await?;
 
     // Save Markdown
+    std::fs::write("output.md", markdown_content)?;
     println!("Markdown file has been saved as output.md");
 
     Ok(())
