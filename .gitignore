@@ -1,0 +1,8 @@
+/target
+.env
+
+# Environment Variables
+.env
+.env.local
+*.wav
+output.md
